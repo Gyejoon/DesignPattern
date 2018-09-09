@@ -12,7 +12,6 @@ public abstract class Adding implements Beverage {
 		this.base = base;
 	}
 	
-	
 	@Override
 	public int getTotalPrice() {
 		return base.getTotalPrice();
